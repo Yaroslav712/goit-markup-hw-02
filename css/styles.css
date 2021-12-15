@@ -1,0 +1,18 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: tomato;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* Селекторы
+Универсальный селектор
+*/
+p {
+  color: brown;
+}
