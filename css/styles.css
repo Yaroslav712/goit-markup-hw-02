@@ -16,3 +16,16 @@ body {
 p {
   color: brown;
 }
+[href] {
+  text-decoration: none;
+}
+/* Обращение к соседу*/
+.title + button {
+  color: brown;
+}
+/* Один элемент у которого два класса*/
+.link.header-link {
+  color: #000;
+}
+/* Обращение к ребенку*/
+.header-list li[];
