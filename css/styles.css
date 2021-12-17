@@ -1,6 +1,12 @@
-body {
-  font-family: 'Raleway', sans-serif;
-  color: tomato;
+:root {
+  --header-color: #212121;
+  --btn-color: #ffffff;
+  --accent-color: #2196f3;
+  --first-title-color: #ffffff;
+  --second-title-color: #212121;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -10,22 +16,77 @@ body {
 .link {
   text-decoration: none;
 }
-/* Селекторы
-Универсальный селектор
-*/
-p {
-  color: brown;
+/*------------------------НEADER------------------------*/
+
+.header {
+  background-color: gray;
 }
-[href] {
-  text-decoration: none;
+
+.header-link,
+.header-email {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
 }
-/* Обращение к соседу*/
-.title + button {
-  color: brown;
+
+.header-link:hover,
+.header-link:focus,
+.header-email:hover,
+.header-email:focus {
+  color: var(--accent-color);
 }
-/* Один элемент у которого два класса*/
-.link.header-link {
-  color: #000;
+
+/*.header-tel 
+{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}*/
+
+.section-title {
+  background: #2f303a;
 }
-/* Обращение к ребенку*/
-.header-list li[];
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--first-title-color);
+}
+.header-btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--btn-color);
+}
+
+/*------------------------Section(Преимущества)------------------------*/
+
+.list-decision {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.list-task {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
