@@ -18,12 +18,22 @@
 }
 /*------------------------НEADER------------------------*/
 
-.header {
-  background-color: gray;
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.header-logo-color {
+  color: var(--header-color);
 }
 
 .header-link,
-.header-email {
+.header-email,
+.header-tel {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -35,7 +45,9 @@
 .header-link:hover,
 .header-link:focus,
 .header-email:hover,
-.header-email:focus {
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 
@@ -89,4 +101,70 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/*------------------------Section(Чем занимаемся)------------------------*/
+.about-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/*------------------------Section(Наша команда)------------------------*/
+.heroes {
+  background: #f5f4fa;
+}
+.about-heroes {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+.list-heroes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+.list-specialties {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*------------------------FOOTER------------------------*/
+
+.footer-link {
+  background: #2f303a;
+}
+.footer-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.footer-logo-color {
+  color: var(--first-title-color);
+}
+.link-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
 }
