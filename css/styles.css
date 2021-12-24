@@ -41,6 +41,13 @@
   letter-spacing: 0.02em;
   color: var(--header-color);
 }
+.heder-link1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 
 .header-link:hover,
 .header-link:focus,
@@ -75,15 +82,12 @@
   color: var(--first-title-color);
 }
 .header-btn {
-  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: var(--btn-color);
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 /*------------------------Section(Преимущества)------------------------*/
@@ -159,12 +163,28 @@
 .footer-logo-color {
   color: var(--first-title-color);
 }
-.link-adress {
+.footer-adress {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+.footer-mailto,
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mailto:hover,
+.footer-mailto:focus,
+.footer-tel:hover,
+.footer-tellipse {
   color: var(--first-title-color);
 }
