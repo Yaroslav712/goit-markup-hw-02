@@ -41,13 +41,6 @@
   letter-spacing: 0.02em;
   color: var(--header-color);
 }
-.heder-link1 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 
 .header-link:hover,
 .header-link:focus,
@@ -187,4 +180,21 @@
 .footer-tel:hover,
 .footer-tellipse {
   color: var(--first-title-color);
+}
+/*------------------------PORTFOLIO------------------------*/
+
+/*------------------------ФИЛЬТРЫ------------------------*/
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
