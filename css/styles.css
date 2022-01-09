@@ -16,6 +16,10 @@
 .link {
   text-decoration: none;
 }
+.link-current {
+  text-decoration: none;
+}
+
 /*------------------------НEADER------------------------*/
 
 .header-logo {
@@ -50,7 +54,9 @@
 .header-tel:focus {
   color: var(--accent-color);
 }
-
+.link-current {
+  color: var(--accent-color);
+}
 /*.header-tel 
 {
   font-weight: 500;
